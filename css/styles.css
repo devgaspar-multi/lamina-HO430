@@ -1,0 +1,421 @@
+@font-face {
+  font-display: swap;
+  font-family: "elza";
+  font-weight: 400;
+  src: url("../fonts/Elza-Regular.ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "elza";
+  font-weight: 700;
+  src: url("../fonts/Elza-Bold.ttf");
+}
+
+.lamina-h0430-container {
+  box-shadow: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-banner-h0430 {
+  display: flex;
+  justify-content: center;
+}
+
+.h0430-main-banner-desk,
+.h0430-solucoes-desk {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+}
+
+.h0430-main-banner-mb,
+.h0430-solucoes-mb {
+  display: none;
+  width: 100%;
+}
+
+.h0430-features-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 200px;
+  gap: 130px;
+}
+
+.h0430-features-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h0430-features-txt {
+  font-family: "elza", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 112%;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff8200;
+  max-width: 262px;
+}
+
+.h0430-solucoes-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h0430-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 105%;
+  letter-spacing: 0px;
+  color: #ff8200;
+  margin-top: 0px;
+  margin-bottom: 51px;
+  display: flex;
+  justify-content: center;
+}
+
+.h0430-txt {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: justify;
+  color: #2f2f2f;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  max-width: 1231px;
+}
+
+.h0430-2em1-container {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h0430-2em1-img-box-desk {
+  display: flex;
+  margin-top: 120px;
+  gap: 70px;
+}
+
+.h0430-2em1-img-box-desk img {
+  width: 100%;
+}
+
+.h0430-2em1-img-box-mb {
+  display: none;
+}
+
+.h0430-superficies-container {
+  display: flex;
+  margin-top: 200px;
+  margin-bottom: 70px;
+  flex-direction: column;
+}
+
+.h0430-superficies-container .h0430-subtitle {
+  margin-bottom: 90px;
+}
+
+.h0430-superficies-cards {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+
+.h0430-superficies-txt {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #2f2f2f;
+}
+
+.h0430-sistema-svg img {
+  width: 100%;
+}
+
+.h0430-interruptor-duplo .h0430-subtitle {
+  max-width: 1370px;
+  margin: 0px auto 51px auto;
+  justify-content: flex-start;
+}
+
+.h0430-interruptor-duplo .h0430-txt {
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+.h0430-interruptor-duplo-desk {
+  display: flex;
+  width: 100%;
+  margin: 122px auto 0px auto;
+  max-width: 1370px;
+  padding-left: 35px;
+}
+
+.h0430-interruptor-duplo-mb {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1370px;
+}
+
+.h0430-interruptor-duplo-features {
+  display: flex;
+  max-width: 1430px;
+  justify-content: space-between;
+  margin: 170px auto 170px auto;
+}
+
+.h0430-interruptor-duplo-txt-box {
+  max-width: 595px;
+}
+
+.h430-arco-container {
+  position: relative;
+}
+
+.h430-aspirador-gif {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  bottom: -10px;
+}
+
+.h430-arco-desk {
+  width: 100%;
+}
+
+.h430-aspirador-sofa-desk {
+  display: flex;
+  width: 100%;
+  max-width: 1370px;
+  margin: 120px auto 20px auto;
+}
+
+.h430-aspirador-sofa-mb,
+.h430-acessorios-mb,
+.h430-produto-desmontado-sofa-mb {
+  display: none;
+  width: 100%;
+}
+
+.h430-acessorios-desk,
+.h430-produto-desmontado-sofa-desk {
+  display: flex;
+  width: 100%;
+}
+
+.h430-acessorios-container {
+  max-width: 1370px;
+  margin: 0px auto;
+}
+
+.h430-footer {
+  height: 160px;
+  background: #0050dc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.h430-footer-logo {
+  padding-left: 89px;
+}
+
+.h430-footer-txt {
+  padding-right: 127px;
+  font-family: "elza", sans-serif;
+  font-weight: 400;
+  font-size: 33.71px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: bottom;
+  color: #fff;
+}
+
+@media (max-width: 1600px) {
+  .h0430-2em1-img-box-desk img {
+    width: 100%;
+    max-width: 580px;
+  }
+
+  .h0430-superficies-img {
+    max-width: 260px;
+  }
+
+  .h0430-interruptor-duplo-desk {
+    max-width: 1370px;
+  }
+}
+
+@media (max-width: 1480px) {
+  .h0430-features-container {
+    gap: 60px;
+  }
+
+  .h0430-interruptor-duplo-desk {
+    max-width: 1270px;
+  }
+}
+
+@media (max-width: 1310px) {
+  .h0430-interruptor-duplo-desk {
+    max-width: 1000px;
+  }
+
+  .h0430-2em1-img-box-desk img {
+    max-width: 500px;
+  }
+
+  .h0430-superficies-cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1140px) {
+  .h0430-features-txt {
+    font-size: 20px;
+    max-width: 130px;
+  }
+
+  .h0430-superficies-cards {
+    gap: 90px;
+  }
+
+  .h0430-features-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .h0430-2em1-img-box-desk img {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .h0430-superficies-cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1050px) {
+  .h0430-interruptor-duplo-desk {
+    max-width: 780px;
+  }
+
+  .h0430-2em1-img-box-desk img {
+    max-width: 360px;
+  }
+}
+
+/* Tablet e Mobile */
+
+@media (max-width: 834px) {
+  .h0430-main-banner-mb,
+  .h0430-solucoes-mb,
+  .h0430-interruptor-duplo-mb,
+  .h430-aspirador-sofa-mb,
+  .h430-acessorios-mb,
+  .h430-produto-desmontado-sofa-mb {
+    display: flex;
+  }
+
+  .h0430-solucoes-desk,
+  .h0430-interruptor-duplo-desk,
+  .h430-aspirador-sofa-desk,
+  .h0430-main-banner-desk {
+    display: none;
+  }
+
+  .h0430-2em1-img-box-desk,
+  .h430-acessorios-desk,
+  .h430-produto-desmontado-sofa-desk {
+    display: none;
+  }
+
+  .h0430-features-container {
+    flex-wrap: wrap;
+  }
+
+  .h0430-2em1-img-box-mb {
+    display: flex;
+  }
+
+  .h430-aspirador-sofa-container {
+    padding: 0 25px;
+    margin-top: 68px;
+  }
+
+  .h0430-2em1-img-box-mb {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    margin-top: 50px;
+  }
+
+  .h430-footer-logo {
+    padding-left: 0px;
+    max-width: 122px;
+  }
+
+  .h0430-interruptor-duplo-mb {
+    padding: 0 25px;
+  }
+
+  .h430-footer-txt {
+    padding-right: 22px;
+    font-size: 16px;
+  }
+
+  .h430-aspirador-gif {
+    height: fit-content;
+  }
+
+  .h0430-interruptor-duplo-features {
+    flex-direction: column;
+    gap: 82px;
+  }
+
+  .h0430-subtitle {
+    font-size: 32px;
+    padding: 0px 25px;
+    margin-bottom: 36px;
+  }
+
+  .h0430-txt {
+    font-size: 16px;
+    padding: 0px 25px;
+  }
+
+  .h0430-solucoes-mb {
+    margin-top: 50px;
+  }
+
+  .h0430-superficies-container {
+    margin-top: 66px;
+  }
+
+  .h0430-features-container {
+    margin-bottom: 86px;
+  }
+
+  .h430-footer {
+    height: 84px;
+  }
+}
